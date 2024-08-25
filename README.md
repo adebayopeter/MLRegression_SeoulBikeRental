@@ -4,11 +4,14 @@
 To build a simple web application using **ML Regression Models** that will allow users to explore data through a user-friendly interface and answer business-related questions.
 
 ## Business Problem
-This project aims to optimize bike rental operations in Seoul by leveraging data-driven insights. By analyzing various factors affecting bike rentals, we can improve resource allocation, enhance user experience, and potentially increase revenue for the bike rental service. The original dataset has the following information:
+This project aims to optimize bike rental operations in Seoul by leveraging data-driven insights. By analyzing various factors affecting bike rentals, we can improve resource allocation, enhance user experience, and potentially increase revenue for the bike rental service. 
 
-RangeIndex: 8760 entries, 0 to 8759
+## Dataset Overview
+The original dataset has the following information:
 
-dtypes: float64(6), int64(4), object(4)
+Entries: 8760
+
+Data Types: float64(6), int64(4), object(4)
 
 Data columns (total 14 columns):
 
@@ -45,6 +48,40 @@ Data columns (total 14 columns):
 + Marketing Strategies: Informing marketing strategies to boost rentals during typically low-usage times.
 + Financial Planning: Assisting in budget allocation and financial planning based on expected rental patterns.
 + Customer Satisfaction: Improving customer satisfaction by ensuring bike availability during high-demand periods.
+
+## Installation
+### Prerequisites
+Before you can run the project, make sure you have the following installed:
+
++ Python 3.8 or higher
++ pip (Python package installer)
++ Virtual environment tool (optional but recommended)
+
+### Step-by-Step Installation Guide
+1. Clone the repository:
+
+   ```sh
+    git clone https://github.com/yourusername/seasonal-bike-rental-analysis.git
+    cd seasonal-bike-rental-analysis
+   ```
+   
+2. Create a virtual environment and activate it:
+
+   ```sh
+   python -m venv venv
+   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+   ```
+3. Install the required packages:
+   
+   ```sh 
+   pip install -r requirements.txt 
+   ```
+   
+4. Run the Preprocessing and EDA script
+
+   ```sh
+   python preprocessing_eda.py
+   ```
 
 ## Project Scope
 + Data Formatting and Exploration: Initial formatting and exploratory data analysis.
